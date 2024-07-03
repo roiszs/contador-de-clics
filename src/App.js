@@ -1,5 +1,6 @@
 import './App.css';
 import Boton from './componentes/boton';
+import Contador from './componentes/contador';
 import joel from './imagenes/joel.jpeg';
 
 
@@ -25,6 +26,8 @@ function App() {
         </img>
       </div>
       <div className='contenedor-principal'>
+
+        <Contador numClics="5" />
 
         <Boton 
         texto="Clic"
